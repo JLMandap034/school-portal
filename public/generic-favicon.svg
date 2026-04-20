@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="faviconTitle">
+  <title id="faviconTitle">Generic school portal favicon</title>
+  <defs>
+    <linearGradient id="favBg" x1="10" y1="8" x2="54" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#favBg)"/>
+  <path d="M18 22.5c5 0 8.7 1.5 11.5 4.7v14.6c-2.8-2.7-6.6-4.1-11.5-4.3Z" fill="#fff"/>
+  <path d="M46 22.5c-5 0-8.7 1.5-11.5 4.7v14.6c2.8-2.7 6.6-4.1 11.5-4.3Z" fill="#dbeafe"/>
+  <path d="m32 13.5 2.1 4.1 4.5.7-3.3 3.2.8 4.5-4.1-2.1-4.1 2.1.8-4.5-3.3-3.2 4.5-.7Z" fill="#fde68a"/>
+</svg>

@@ -7,8 +7,8 @@ function Home() {
       <section className="hero-section section-alt-1">
         <div className="hero-overlay"></div>
         <div className="hero-content">
-          <h1>Welcome to Mother of Perpetual Help School</h1>
-          <p className="hero-subtitle">Humility in Greatness - Empowering Education, Inspiring Excellence</p>
+          <h1>Welcome to Our School</h1>
+          <p className="hero-subtitle">Empowering Education, Inspiring Excellence</p>
           <div className="hero-buttons">
             <a href="/login" className="btn btn-primary">Get Started</a>
             <a href="/about" className="btn btn-secondary">Learn More</a>

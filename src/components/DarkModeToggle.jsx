@@ -6,9 +6,12 @@ function DarkModeToggle() {
 
   return (
     <button 
+      type="button"
       className="dark-mode-toggle"
       onClick={toggleDarkMode}
+      aria-pressed={darkMode}
       aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
+      title={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
     >
       <div className={`toggle-icon ${darkMode ? 'moon' : 'sun'}`}>
         {darkMode ? (

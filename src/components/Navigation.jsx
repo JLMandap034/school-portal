@@ -24,8 +24,8 @@ function Navigation() {
       <div className="nav-container">
         <Link to="/" className="nav-logo" onClick={closeMenu}>
           <img 
-            src="/school-logo.png" 
-            alt="Mother of Perpetual Help School Logo" 
+            src="/generic-logo.svg" 
+            alt="School Logo" 
             className="logo-icon"
             onError={(e) => {
               if (e.target.nextSibling) {
@@ -35,7 +35,7 @@ function Navigation() {
             }}
           />
           <span className="logo-icon-fallback">🏫</span>
-          <span className="logo-text">MPHSI</span>
+          <span className="logo-text">School Portal</span>
         </Link>
         <button 
           className={`burger-menu ${isMenuOpen ? 'active' : ''}`}

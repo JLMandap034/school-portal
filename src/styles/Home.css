@@ -13,14 +13,14 @@
 
 .hero-section {
   position: relative;
-  background-image: url('/school-hero.jpg');
+  background-image: url('/placeholder-campus.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
   padding: 120px 20px;
   text-align: center;
-  min-height: 600px;
+  min-height: calc(100svh - 20rem);
   display: flex;
   align-items: center;
   justify-content: center;
