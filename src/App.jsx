@@ -3,6 +3,7 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import PublicLayout from './layouts/PublicLayout';
 import SkeletonGrid from './components/states/SkeletonGrid';
 import './App.css';
+import { Analytics } from "@vercel/analytics/react"
 
 const HomePage = lazy(() => import('./pages/public/HomePage'));
 const AboutUsPage = lazy(() => import('./pages/public/AboutUsPage'));
@@ -40,6 +41,7 @@ function App() {
         </div>
       }
     >
+      <Analytics />
       <Routes>
         <Route element={<PublicLayout />}>
           <Route path="/" element={<HomePage />} />
